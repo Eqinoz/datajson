@@ -1,28 +1,4 @@
 {
-  "posts": [
-    {
-      "id": "1",
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": "2",
-      "title": "json-server 2",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": "2",
-      "body": "some comment 2",
-      "postId": 2
-    }
-  ],
   "questions": [
     {
       "id": "1",
@@ -74,7 +50,7 @@
       "userName": "Ali",
       "answers": [
         {
-          "answerId1": "Kullanmam",
+          "answerId1": "Sık Kullanırım",
           "answerId2": "React",
           "answerId3": "Güzel bir dil."
         }
@@ -83,55 +59,63 @@
     {
       "id": "4",
       "userName": "Veli",
-      "answers": {
-        "answerId1": "Kullanmam",
-        "answerId2": "React",
-        "answerId3": "Güzel bir dil."
-      }
+      "answers": [
+        {
+          "answerId1": "Kullanmam",
+          "answerId2": "React",
+          "answerId3": "Güzel bir dil."
+        }
+      ]
     },
     {
       "id": "5",
       "userName": "Bayram",
-      "answers": {
-        "answerId1": "Tüm Projelerimde Kullanırım",
-        "answerId2": "Angular",
-        "answerId3": "Dineme 10 Numara"
-      }
+      "answers": [
+        {
+          "answerId1": "Tüm Projelerimde Kullanırım",
+          "answerId2": "Angular",
+          "answerId3": ".Net'in Zirvesi"
+        }
+      ]
     },
     {
       "id": "46bc",
       "userName": "Umut",
-      "answers": {
-        "answerId1": "Kullanmam",
-        "answerId2": "React",
-        "answerId3": "Very Good"
-      }
-    },
-    {
-      "id": "37e7",
-      "userName": "eqinoz",
-      "answers": {
-        "answerId1": "Tüm Projelerimde Kullanırım",
-        "answerId2": "Vue",
-        "answerId3": "Very Good"
-      }
+      "answers": [
+        {
+          "answerId1": "Kullanmam",
+          "answerId2": "React",
+          "answerId3": "Very Good"
+        }
+      ]
     },
     {
       "id": "6082",
       "userName": "Devrim",
+      "answers": [
+        {
+          "answerId1": "Tüm Projelerimde Kullanırım",
+          "answerId2": "Vue",
+          "answerId3": "Very Good"
+        }
+      ]
+    },
+    {
+      "id": "259e",
+      "userName": "Murat",
       "answers": {
         "answerId1": "Tüm Projelerimde Kullanırım",
         "answerId2": "Vue",
-        "answerId3": "Very Good"
+        "answerId3": "Rakipsiz"
       }
     },
     {
-      "id": "fa4e",
-      "userName": "Mehmet",
+      "id": "ad84",
+      "userName": "Bayram",
       "answers": {
-        "answerId1": "Tüm Projelerimde Kullanırım",
-        "answerId2": "Vue",
-        "answerId3": "rthojfoghjıurfgph"
+        "answerId1": "Kullanmam",
+        "answerId2": "React",
+        "answerId3": "Rakipsiz"
       }
     }
   ]
